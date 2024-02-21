@@ -1,12 +1,9 @@
 
 /* Your CSS Code here. */
 .holder{
-	width:100px;
-	height:100px;
 	display:grid;
-	border:1px solid black;
-	grid-template-rows:repeat(2,auto);
-	grid-template-columns:repeat(2,auto);
+	grid-template-rows:repeat(2,100px);
+	grid-template-columns:repeat(2,100px);
 }
 .item{
 	border:1px solid black;
